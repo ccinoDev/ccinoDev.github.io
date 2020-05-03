@@ -1,1 +1,1 @@
-# ccinoDev.github.io
+# The final project for VanillaJS Challenge
