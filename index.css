@@ -6,12 +6,22 @@ body {
     cursor: pointer;
 }
 
-body {
-    color: #34495e;
+.box {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin: 0 auto;
+    color: white;
+    /* text-align: center;
+    vertical-align: middle; */
 }
 
 .clicked {
     color: #7f8c8d;
+}
+
+form {
+    text-align: center;
 }
 
 .form,
@@ -41,4 +51,5 @@ body {
     height: 100%;
     z-index: -1;
     animation: fadeIn 0.5s linear;
+    filter: brightness(50%);
 }
